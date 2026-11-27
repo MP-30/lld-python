@@ -19,3 +19,7 @@ p2 = Points(4,4)
 print(p1.__eq__(p2))
 print(p1.__noteq__(p2))
 print(p1 == p2)
+
+import copy
+d = 12
+copy.deepcopy(d)
